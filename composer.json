@@ -1,0 +1,29 @@
+{
+    "name": "shizzz/base",
+    "description": "base for sites",
+    "version": "0.0.1",
+    "type": "project",
+    "keywords": [
+        "html",
+        "php"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/shizzz/base",
+    "authors": [
+        {
+            "name": "Sergey Kolmakov",
+            "email": "kolmakov7@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "catfan/medoo": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "shizzz\\base\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
